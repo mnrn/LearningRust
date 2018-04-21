@@ -1,13 +1,12 @@
 use std::io::Write;
 use std::str::FromStr;
 
+// Calculate greatest common divisor.
 fn gcd(mut n: u64, mut m: u64) ->u64 {
     assert!(n != 0 && m != 0);
     while m != 0 {
         if m < n {
-            let t = m;
-            m = n;
-            n = t;
+            std::mem::swap(&mut n, &mut m);
         }
         m = m % n;
     }
