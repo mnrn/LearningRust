@@ -1,0 +1,1 @@
+{"rustc":7277502108676280268,"features":"[]","target":18398425908744995913,"profile":3026933032369683551,"path":7987150236701239881,"deps":[["traitobject v0.1.0",17526010674369123051],["typeable v0.1.2",9208143264204136627]],"local":[{"Precalculated":"0.1.9"}],"rustflags":["--error-format=json"],"epoch":"Epoch2015"}
